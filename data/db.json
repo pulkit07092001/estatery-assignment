@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "name": "Modern apartment in the heart of the city",
+    "price": 100,
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "bathroom": 1,
+    "beds": 1,
+    "tag": "apartment",
+    "squareArea": 500,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-03-01",
+        "endDate": "2023-03-31"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spacious beach house with ocean view",
+    "price": 200,
+    "address": {
+      "street": "456 Ocean Dr",
+      "city": "Miami",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "bathroom": 2,
+    "beds": 2,
+    "tag": "house",
+    "squareArea": 1000,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-04-01",
+        "endDate": "2023-04-30"
+      },
+      {
+        "startDate": "2023-06-01",
+        "endDate": "2023-06-30"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cozy cabin in the woods",
+    "price": 150,
+    "address": {
+      "street": "789 Forest Rd",
+      "city": "Seattle",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "bathroom": 1,
+    "beds": 3,
+    "tag": "cabin",
+    "squareArea": 800,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-31"
+      },
+      {
+        "startDate": "2023-07-01",
+        "endDate": "2023-07-31"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Luxury villa with private pool",
+    "price": 500,
+    "address": {
+      "street": "10 Beach Rd",
+      "city": "Phuket",
+      "country": "Thailand",
+      "countryCode": "TH"
+    },
+    "bathroom": 5,
+    "beds": 5,
+    "tag": "villa",
+    "squareArea": 2000,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-08-01",
+        "endDate": "2023-08-31"
+      },
+      {
+        "startDate": "2023-10-01",
+        "endDate": "2023-10-31"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Charming cottage in the countryside",
+    "price": 80,
+    "address": {
+      "street": "456 Country Ln",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "UK"
+    },
+    "bathroom": 1,
+    "beds": 2,
+    "tag": "cottage",
+    "squareArea": 600,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-30"
+      },
+      {
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-30"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sleek loft in trendy neighborhood",
+    "price": 120,
+    "address": {
+      "street": "789 Loft St",
+      "city": "San Francisco",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "bathroom": 1,
+    "beds": 1,
+    "tag": "loft",
+    "squareArea": 700,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-12-01",
+        "endDate": "2023-12-31"
+      },
+      {
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-31"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Charming cottage in the countryside",
+    "price": 80,
+    "address": {
+      "street": "456 Country Ln",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "UK"
+    },
+    "bathroom": 1,
+    "beds": 2,
+    "tag": "cottage",
+    "squareArea": 600,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-30"
+      },
+      {
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-30"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sleek loft in trendy neighborhood",
+    "price": 120,
+    "address": {
+      "street": "789 Loft St",
+      "city": "San Francisco",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "bathroom": 1,
+    "beds": 1,
+    "tag": "loft",
+    "squareArea": 700,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-12-01",
+        "endDate": "2023-12-31"
+      },
+      {
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-31"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Spacious apartment in New Delhi",
+    "price": 150,
+    "address": {
+      "street": "123 South Delhi Rd",
+      "city": "New Delhi",
+      "country": "India",
+      "countryCode": "IN"
+    },
+    "bathroom": 2,
+    "beds": 2,
+    "tag": "apartment",
+    "squareArea": 1000,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-07-01",
+        "endDate": "2023-07-31"
+      },
+      {
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-30"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Rustic cabin in the Blue Mountains",
+    "price": 80,
+    "address": {
+      "street": "456 Blue Mountains Rd",
+      "city": "Katoomba",
+      "country": "Australia",
+      "countryCode": "AU"
+    },
+    "bathroom": 1,
+    "beds": 1,
+    "tag": "cabin",
+    "squareArea": 400,
+    "type": "rental",
+    "image": "https://example.com/image.jpg",
+    "availability": [
+      {
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-31"
+      },
+      {
+        "startDate": "2023-06-01",
+        "endDate": "2023-06-30"
+      }
+    ]
+  }
+]
