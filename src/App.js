@@ -8,7 +8,7 @@ import { DatePicker } from "react-nice-dates";
 import ReactPaginate from "react-paginate";
 import MultiRangeSlider from "multi-range-slider-react";
 import Footer from "./components/footer/Footer";
-import "./Calendar.css";
+import "./calendar.css";
 
 const App = () => {
   const [minPrice, setMinPrice] = useState(0);
