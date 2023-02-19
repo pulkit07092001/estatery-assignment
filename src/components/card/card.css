@@ -1,0 +1,125 @@
+.card {
+  height: 450px;
+  width: 350px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: transform ease-in 0.3s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.cardImg {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+.cardImg img {
+  height: 225px;
+  object-fit: cover;
+  width: 100%;
+  opacity: 70%;
+  transition: all 0.5s;
+}
+.cardImg img:hover {
+  opacity: 100%;
+}
+
+.name {
+  margin-top: 5px;
+  font-size: 21px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.address {
+  padding: 9px 0;
+  font-size: 15px;
+  color: gray;
+}
+.price {
+  display: flex;
+
+  font-weight: 800;
+}
+.amount {
+  font-size: 28px;
+  color: #6e44ff;
+}
+.month {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.details {
+  position: relative;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+.additional {
+  justify-self: flex-end;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid lightgrey;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.basic {
+  position: relative;
+}
+.favourite {
+  position: absolute;
+  right: 0;
+  font-size: 16px;
+  color: #6e44ff;
+  cursor: pointer;
+  border: 0.5px solid #6e44ff;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+.additional-detail {
+  padding-top: 8px;
+}
+.additional-detail i {
+  color: #6e44ff;
+}
+.card-tag {
+  width: 160px;
+  position: absolute;
+  top: -16px;
+  left: 0;
+  height: 30px;
+  display: flex;
+  /* background-color: #6e44ff; */
+}
+.card-tag-left {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #6e44ff;
+  width: 130px;
+}
+
+.card-tag-right {
+  height: 100%;
+
+  border-top-right-radius: 50px;
+  width: 50px;
+  border-left: 40px solid #6e44ff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  transform: translateX(-0.5px);
+}
