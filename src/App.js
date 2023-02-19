@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
-import "./app.css";
+import "./App.css";
 import Card from "./components/card/Card";
 import db from "./db.json";
 import React, { useEffect, useState } from "react";
@@ -8,7 +8,7 @@ import { DatePicker } from "react-nice-dates";
 import ReactPaginate from "react-paginate";
 import MultiRangeSlider from "multi-range-slider-react";
 import Footer from "./components/footer/Footer";
-import "./calendar.css";
+import "./Calendar.css";
 
 const App = () => {
   const [minPrice, setMinPrice] = useState(0);
